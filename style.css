@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding-top: 90px;
+}
+
+h1, h5 {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+#game {
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    top: 200px;
+    width: 80vw;
+}
+
+#ground {
+    border: 1px solid #CCC;
+    position: absolute;
+    top: 220px;
+    width: 100%;
+}
+
+#score {
+    position: absolute;
+    right: 0;
+}
+
+.dino {
+    position: absolute;
+    width: 60px;
+}
+
+.cloud {
+    color: #DDD;
+    position: absolute;
+    width: 70px;
+}
+
+.cacti {
+    position: absolute;
+    width: 60px;
+}
